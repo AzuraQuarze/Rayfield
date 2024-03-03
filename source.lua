@@ -16,7 +16,6 @@ local RayfieldFolder = "Rayfield"
 local ConfigurationFolder = RayfieldFolder.."/Configurations"
 local ConfigurationExtension = ".rfld"
 local inputKey01 = "B"
-local KeyCode1 = Enum.KeyCode[inputKey01]
 
 
 
