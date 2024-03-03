@@ -15,7 +15,7 @@ local NotificationDuration = 2
 local RayfieldFolder = "Rayfield"
 local ConfigurationFolder = RayfieldFolder.."/Configurations"
 local ConfigurationExtension = ".rfld"
-local inputKey01 = "~"
+local inputKey01 = "K"
 
 
 
