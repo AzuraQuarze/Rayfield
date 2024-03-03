@@ -15,6 +15,7 @@ local NotificationDuration = 6.5
 local RayfieldFolder = "Rayfield"
 local ConfigurationFolder = RayfieldFolder.."/Configurations"
 local ConfigurationExtension = ".rfld"
+local inputKey01 = K
 
 
 
@@ -2442,7 +2443,7 @@ Topbar.Hide.MouseButton1Click:Connect(function()
 end)
 
 UserInputService.InputBegan:Connect(function(input, processed)
-	if (input.KeyCode == Enum.KeyCode.K and not processed) then
+	if (input.KeyCode == Enum.KeyCode.inputKey01 and not processed) then
 		if Debounce then return end
 		if Hidden then
 			Hidden = false
